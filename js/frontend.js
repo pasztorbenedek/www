@@ -36,6 +36,16 @@ gomb3.id = "gomb3";
 gomb3.textContent = "Fegyelem";
 gomb3.className = "gomb";
 
+const gomb4 = document.createElement("button");
+gomb4.id = "gomb4";
+gomb4.textContent = "No Nut November";
+gomb4.className = "gomb";
+
+const gomb5 = document.createElement("button");
+gomb5.id = "gomb5";
+gomb5.textContent = "Destroy Dick December";
+gomb5.className = "gomb";
+
 const szoveg = document.createElement("p");
 szoveg.id = "szoveg";
 szoveg.textContent = "Kérem, válasszon egy témakört a fenti menüből!";
@@ -52,6 +62,8 @@ cimoszlop.appendChild(alaphelyzetgomb);
 cimoszlop.appendChild(bevgomb);
 cimoszlop.appendChild(gomb2);
 cimoszlop.appendChild(gomb3);
+cimoszlop.appendChild(gomb4);
+cimoszlop.appendChild(gomb5);
 
 cimsor.appendChild(cimoszlop);
 cimkontener.appendChild(cimsor);

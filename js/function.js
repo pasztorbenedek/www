@@ -27,7 +27,21 @@ gomb3.addEventListener("click", function() {
     kep.style.display = "block";
 });
 
+gomb4.addEventListener("click", function() {
+    txtBeolvasas("./forrasok/forras4.txt", szoveg);
+    kep.src = "./images/kep5.png";
+    kep.alt = "No Nut November";
+    kep.style.display = "block";
+});
+
+gomb5.addEventListener("click", function() {
+    txtBeolvasas("./forrasok/forras5.txt", szoveg);
+    kep.src = "./images/kep5.png";
+    kep.alt = "Destroy Dick December";
+    kep.style.display = "block";
+});
+
 alaphelyzetgomb.addEventListener("click", function() {
-    szoveg.textContent = "Kérem, válasszon egy témakört a fenti menüből!";
+    szoveg.textContent = "Válassz egy fejezetet!";
     kep.style.display = "none";
 });
